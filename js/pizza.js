@@ -36,7 +36,45 @@ console.log(address.street,address.city,address.state)
 console.log(pizza.crust,pizza.pizzasauce,pizza.cheese)
 console.log(toppings.Veggies[0],toppings.Veggies[1],toppings.meats[0],toppings.meats[1])
 console.log(others.sideItems[0],others.sideItems[1],others.sauces,others.instructions,others.payment,others.storeId)
+
+var person = {
+    firstname: "Justin",
+    lastname: "Beiber",
+}
+var address ={  
+    street: "1801 W Rodeo Dr",
+    city : "Beverly Hills",
+    state: "CA",
+    zip : "91833"
+}
+var pizza ={
+    crust: "stuffed crust",
+    pizzasauce: "creamy garlic alfredo",
+    cheese: "double",
+}
+var toppings ={
+    Veggies: ["onion", "anchovies", "mushroom"],
+    meats :["meat", "bacon"]
+        }
+    
+var others ={
+    sideItems: "double fudge brownie desset",
+    sauces: ["bbq", "garlic sauce"],
+    instructions: "call 815 at the gate",
+    payment:"credit card",
+    storeId:"382"
+}
+console.log(person.firstname,person.lastname);
+console.log(address.street,address.city,address.state,address.zip)
+console.log(pizza.crust,pizza.pizzasauce,pizza.cheese)
+console.log(toppings.Veggies[0],toppings.Veggies[1],toppings.Veggies[2],toppings.meats[0],toppings.meats[1])
+console.log(others.sideItems,others.sauces[0],others.sauces[1],others.instructions,others.payment,others.storeId)
+
+
+
+
 /*
+
 * Create a new variable named currentOrders
 * currentOrders should be single object containing both orders from above
 */
